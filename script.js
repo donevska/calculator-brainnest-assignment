@@ -16,9 +16,6 @@ function calculate() {
 
   if (userInput == "AC") {
     clearEverything();
-  } else if (userInput == "⬅") {
-    input.value = input.value.substr(0, input.value.length - 1);
-    return;
   } else if (operators.includes(userInput)) {
     input.value = null;
     num1 = operate(num1, num2, ope);
