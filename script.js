@@ -60,7 +60,7 @@ function operate(x, y, ope) {
     if (y === 0) {
       return "♾";
     } else {
-      return (x / y).toFixed(3);
+      return (x / y);
     }
   } else {
     return y;
